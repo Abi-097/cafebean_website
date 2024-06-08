@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   useEffect(() => {
@@ -12,9 +13,11 @@ function App() {
     });
   });
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div>
+      <div className="overflow-x-hidden">
+        <Navbar />
+      </div>
+    </div>
   );
 }
 
