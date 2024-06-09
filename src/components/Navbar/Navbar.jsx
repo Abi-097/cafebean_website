@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "/src/assets/logo1.png";
 
 const Menu = [
