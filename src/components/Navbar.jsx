@@ -1,5 +1,6 @@
+import { Coffee01Icon } from "../assets/icons/Icon";
 import Logo from "/src/assets/logo1.png";
-import { Coffee01Icon } from "../../assets/icons/Icon";
+
 const Menu = [
   {
     id: 1,
